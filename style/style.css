@@ -1,0 +1,19 @@
+nav,
+footer {
+  background-color: #1e2328;
+}
+body {
+  color: #1e2328;
+}
+
+.cta {
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+}
+.cta-sal {
+  background-color: green;
+}
+.reviews div {
+  background-color: lightgray;
+}
