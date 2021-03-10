@@ -29,6 +29,7 @@ h2,
 
 
 .cta {
+    border: none;
     background-color: red;
     color: #fff;
     font-size: 1.5em;
