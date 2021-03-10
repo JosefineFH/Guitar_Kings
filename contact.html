@@ -24,6 +24,23 @@
   <main>
     <section>
       <h1>Contact Us</h1>
+      <form method="POST">
+        <label for="full-name">Full Name</label>
+        <input type="text" name="full-name" id="full-name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="Guitar">Guitar</label>
+        <select name="guitar" id="guitar">
+          <option value="Adirondack Red">Adirondack Red</option>
+          <option value="Adirondack Blue">Adirondack Blue</option>
+          <option value="Adirondack Green">Adirondack Green</option>
+        </select>
+        <input type="checkbox" name="emails-updates" id="emails-updates"> <label for="emails-updates"> Sign up for email
+          updates.</label>
+        <label for="message">Message Us:</label>
+        <textarea name="message" id="message" cols="20" rows="3"></textarea>
+        <input type="submit" value="Send Now" class="cta">
+      </form>
     </section>
   </main>
   <footer>Copyright &copy;</footer>
